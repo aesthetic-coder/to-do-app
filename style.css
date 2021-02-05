@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "honeyregular";
+  src: url("honey-webfont.woff2") format("woff2"),
+    url("honey-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  text-align: center;
+}
+
+h1 {
+  margin: 50px;
+  font-family: "honeyregular";
+
+  font-size: 70px;
+}
+
+img {
+  width: 20%;
+}
+
+.container {
+  padding: 50px;
+}
+
+.form input,
+.form button {
+  height: 50px;
+
+  float: center;
+
+  font-size: 16px;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.form input {
+  width: 400px;
+
+  border: 2px solid lightgray;
+}
+
+.form button {
+  width: 100px;
+  cursor: pointer;
+  background-color: #d8b7b0;
+
+  color: white;
+
+  font-family: "Poppins", sans-serif;
+
+  border: none;
+
+  font-size: 18px;
+
+  font-weight: 500;
+}
+
+#todolist {
+  width: 500px;
+
+  margin: 20px auto;
+
+  list-style-type: none;
+}
+
+#todolist li {
+  margin-bottom: 20px;
+
+  padding: 20px;
+
+  box-shadow: -1px -1px 5px 0px gray;
+
+  border-bottom: 5px solid #d8b7b0;
+}
+
+#todolist li a {
+  float: right;
+
+  font-size: 16px;
+
+  cursor: pointer;
+}
